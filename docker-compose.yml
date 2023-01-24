@@ -558,7 +558,7 @@ services:
         - "traefik.http.routers.sentry.entrypoints=websecure"
         - "traefik.http.routers.sentry.tls=true"
         - "traefik.http.routers.sentry.tls.certresolver=lets-encrypt"
-        - "traefik.http.routers.sentry.rule=Host(`sentry.block-trust.io`)"
+        - "traefik.http.routers.sentry.rule=Host(`sentry.onblocktrust.com`)"
         - "traefik.http.routers.sentry.service=sentry_service"
         - "traefik.http.services.sentry_service.loadbalancer.server.port=9002"
       placement:
